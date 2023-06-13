@@ -7,7 +7,7 @@ export const Header = () => {
         <header>
         <div>
           <div className="topNav">
-            <Image alt="logo" src={'/images/logo_black.png'} width={50} height={50} />
+            <Image alt="logo" src={'/images/explore.png'} width={80} height={80} />
           <nav>
             <ul>
               <li><Link legacyBehavior href='/' passHref>
@@ -27,7 +27,7 @@ export const Header = () => {
             </ul>         
           </nav>
           </div>
-        <h1 className="title"> Sed ut perspiciatis unde omnis </h1>
+        <h1 className="title"> Exploring The Middle East With Special Events </h1>
         </div>
       </header>
     )
